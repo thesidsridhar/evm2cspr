@@ -46,11 +46,6 @@ Example:
 ```
 
 
-Note: you will need to set the value of `$DEV_CONTACT_ID` from the output of the prior `dev-deploy` command (you will see something like `Account id: dev-1663014663747-27418521013742` included in the output, then you would set `DEV_CONTACT_ID=dev-1663014663747-27418521013742`).
-
-Note: you will need to use your own cspr account for `$cspr_ACCOUNT_ID`.
-If you do not have one, you can create it using the [cspr wallet](https://wallet.testnet.cspr.org/create), then access it via the CLI using the `cspr login` command.
-
 ### Help
 
 ```console
