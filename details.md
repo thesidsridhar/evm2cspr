@@ -27,7 +27,7 @@
 ## Grant Milestones
 
 * M1
-	* Building a powerful bytecode interpreter from Solidity to WASM bytecode for the Casper blockchain.
+	* Building a bytecode interpreter from Solidity to WASM bytecode for the Casper blockchain.
 	* Creation of a well-structured and actively maintained GitHub repository to host the bytecode interpreter project.
 	* Providing comprehensive Linux packages for easy installation and usage of the bytecode interpreter on various systems.
 	* Utilizing Rust crate assembly to optimize and enhance the performance of the bytecode interpreter.
@@ -35,7 +35,7 @@
 
 * M2
 	* Succesful conversion and deployment of ERC20 contract on Casper Testnet
-	* Succesful conversion and deployment of Gnosis SAFE multisig contract on Casper Testnet
+	* Succesful conversion and deployment of Gnosis SAFE multi-sig contract on Casper Testnet
 	* Succesful conversion and deployment of 1Inch contract on Casper Testnet
 	* Succesful conversion and deployment of Aave contract on Casper Testnet
 	* Succesful conversion and deployment of Uni v1 contract on Casper Testnet
@@ -45,4 +45,4 @@
 
 ## NOTES
 
-* A follow up grant in Q4 2023 is scheduled if all milestones reached. Steve and I intend to make a whole virtual machine of this.
+* A follow-up grant in Q4 2023 is scheduled if all milestones are reached. 
