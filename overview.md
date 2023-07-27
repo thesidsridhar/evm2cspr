@@ -8,7 +8,7 @@
 ## Project Lead
 
 * Siddarth "Sid" Sridhar
-* Sid interned for Casper in 2021. Is now building an EVM on top of Casper with Steve Careaga
+* Sid interned for Casper in 2021. Is now building an EVM on top of Casper with Steve Careaga, co-founder of CasperLabs
 * Cofounded Draper Round Table. Worked at top crypto firms like FalconX, Alchemy, and cofounded the CityDAO project.
 * [Link](https://sidsridhar.com/) to his personal website.
 * Has a global syndicate of investors with Tim Draper, Alon Goren, and the Draper Venture Network and has connections to developer shops globally
