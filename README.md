@@ -1,6 +1,6 @@
-# EVM → cspr
+# EVM → CASPER
 
-`evm2cspr` is a project for compiling EVM bytecode into wasm bytecode, with the particular goal of having that wasm artifact be executable on the [cspr blockchain](https://cspr.org/).
+`evm2cspr` is a project for compiling EVM bytecode into wasm bytecode, with the particular goal of having that wasm artifact be executable on the [Casper blockchain](https://casper.network/en-us/).
 For ease of testing locally, `evm2cspr` also currently supports [wasi](https://wasi.dev/) as a target platform.
 The wasi output can be run locally using a wasm runtime, for example [wasmtime](https://wasmtime.dev/).
 This can be useful for debugging contracts without deploying to cspr.
