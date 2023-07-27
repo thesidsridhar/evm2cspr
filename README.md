@@ -123,7 +123,5 @@ rustup target add x86_64-unknown-linux-musl
 make clean release
 ```
 
-## Benchmarks
 
-You can see results of gas-spent measurements [here](https://mcjohn974.github.io/evm2cspr/)
 # evm2cspr
