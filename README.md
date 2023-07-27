@@ -7,11 +7,7 @@ This can be useful for debugging contracts without deploying to cspr.
 
 Even though `evm2cspr` is a general EVM bytecode to wasm bytecode transpiler, the CLI interface accepts a Solidity source file as input for convenience.
 The source file is compiled to EVM bytecode using [solc](https://github.com/ethereum/solidity).
-Using Solidity and `solc`, means `evm2cspr` also has access to the contract ABI.
-This allows the output wasm artifact to contain functions that match the ones given in the contract.
-For example, `test/calc.sol` contains a contract with a function `multiply(int a, int b)`, and the compiled wasm artifact will also contain a function called `multiply` which takes a JSON string as input.
-The JSON input is expected to be an object with fields matching the function argument names (`a` and `b` in the example).
-These functions generated based on the ABI are in addition to a general function called `execute`, which accepts binary input following the usual Solidity ABI (i.e. the first four bytes are the "selector" derived from the function signature, the remaining bytes are the input arguments encoded using Solidity's ABI format).
+This way, evm2cspr is able to access the contract ABI, which allows for the output wasm artifact to feature functions that correspond to those provided in the contract. For instance, the contract in `test/calc.sol` comprises a function `multiply(int a, int b)`, and the resulting wasm artifact will also include a similarly named multiply function that accepts a JSON string as input. The JSON input should be an object with fields matching the names of function arguments (a and b in this case). Along with these ABI-derived functions, there's also a generic execute function that accepts binary input conforming to the typical Solidity ABI format (meaning the initial four bytes are the function signature-derived "selector", while the remaining bytes represent the input arguments encoded using Solidity's ABI format).
 
 ## Usage
 
