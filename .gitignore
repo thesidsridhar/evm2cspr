@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Editor backup files
+*~
+
+# Rust artifacts
+/target
+/Cargo.lock
+
+# Program binaries
+/evm2cspr
+/evm2cspr-macos
+/evm2cspr-*-*
+/evmlib.wasi
+/evmlib.wasm
+
+# Debugging artifacts
+**/*.dot
+
+# Compiled contracts
+*.wasm

@@ -1,0 +1,24 @@
+[package]
+name = "evmlib"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.63"
+description = "TODO"
+publish = false
+
+[features]
+default = ["gas", "pc", "cspr"]
+gas = []
+pc = []
+cspr = []
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+abi-types = { path = "../abi-types" }
+ethnum = "1.2.2"
+hex = "0.4.3"
+serde_json = "1"
+sha3 = "0.10"
+ux = "0.1.5"
