@@ -45,12 +45,6 @@ Example:
 ./evm2cspr test/calc.sol -o calc.wasm -b cspr
 ```
 
-Running the output using [cspr-cli](https://github.com/cspr/cspr-cli):
-
-```console
-cspr --networkId testnet dev-deploy calc.wasm
-cspr --networkId testnet --accountId $cspr_ACCOUNT_ID call $DEV_CONTACT_ID multiply '{"a": 7, "b": 6}'
-```
 
 Note: you will need to set the value of `$DEV_CONTACT_ID` from the output of the prior `dev-deploy` command (you will see something like `Account id: dev-1663014663747-27418521013742` included in the output, then you would set `DEV_CONTACT_ID=dev-1663014663747-27418521013742`).
 
